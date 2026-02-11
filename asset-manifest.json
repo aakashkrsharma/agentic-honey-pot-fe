@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/agentic-honey-pot-fe/static/css/main.ff780c00.css",
+    "main.js": "/agentic-honey-pot-fe/static/js/main.32438bb5.js",
+    "static/js/453.ba2bcf49.chunk.js": "/agentic-honey-pot-fe/static/js/453.ba2bcf49.chunk.js",
+    "index.html": "/agentic-honey-pot-fe/index.html",
+    "main.ff780c00.css.map": "/agentic-honey-pot-fe/static/css/main.ff780c00.css.map",
+    "main.32438bb5.js.map": "/agentic-honey-pot-fe/static/js/main.32438bb5.js.map",
+    "453.ba2bcf49.chunk.js.map": "/agentic-honey-pot-fe/static/js/453.ba2bcf49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff780c00.css",
+    "static/js/main.32438bb5.js"
+  ]
+}
