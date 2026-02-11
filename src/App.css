@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.app {
+  max-width: 600px;
+  margin: auto;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chat {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.message {
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 6px;
+  max-width: 80%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.user {
+  background: #e3f2fd;
+  margin-left: auto;
+}
+
+.bot {
+  background: #f1f1f1;
+}
+
+.input-area {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  flex: 1;
+  padding: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  padding: 8px 12px;
+}
+
+.badge {
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.danger {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.safe {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.warning {
+  margin-top: 6px;
+  color: #e65100;
+}
+
+.intel {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
 }
