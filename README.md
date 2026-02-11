@@ -40,7 +40,8 @@ npm install
 REACT_APP_API_URL=https://your-backend-url/api/honeypot/message
 REACT_APP_API_KEY=your-api-key
 ```
-###Running Locally
+
+### Running Locally
 
 ```bash
 npm start
@@ -48,13 +49,13 @@ npm start
 
 This will start the app at http://localhost:3000
 
-###Building for Production
+### Building for Production
 
 ```bash
 npm run build
 ```
 
-###Deploying to GitHub Pages
+### Deploying to GitHub Pages
 
 ```bash
 npm run deploy
