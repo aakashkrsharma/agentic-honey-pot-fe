@@ -13,13 +13,8 @@ export default function App() {
   const [messages, setMessages] = useState([]);
   const [status, setStatus] = useState(null);
   const [intelligence, setIntelligence] = useState(null);
-  // const API_URL = "https://agentic-honey-pot-t1di.onrender.com/api/honeypot/message";
   const API_URL = process.env.REACT_APP_API_URL;
   const API_KEY = process.env.REACT_APP_API_KEY;
-
-  console.log("API URL:", process.env.REACT_APP_API_URL);
-console.log("API Key:", process.env.REACT_APP_API_KEY);
-
 
   // Create / load sessionId
   useEffect(() => {
